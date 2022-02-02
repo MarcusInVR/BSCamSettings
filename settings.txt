@@ -1,0 +1,80 @@
+MenuCamera={
+	Name='MenuCamera'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='-2.0', y='0.2', z='-1.3'} 
+	LookAt={x='4.5', y='0.5', z='6.5'} 
+	TransitionTime='2.0'
+}
+Camera={
+	Name='TrackRight'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='2.5', y='1', z='-3.1'} 
+	LookAt={x='-1.8', y='0.0', z='5.2'} 
+	TransitionTime='2.0'
+	MinTime='15.0'
+	MaxTime='30.0' 
+}	
+Camera={
+	Name='TrackLeft'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='-2.5', y='1', z='-3.1'} 
+	LookAt={x='1.8', y='0.0', z='5.2'} 
+	TransitionTime='2.0'
+	MinTime='15.0'
+	MaxTime='30.0' 
+}
+Camera={
+	Name='FastOrbit'
+	Type='Orbital'
+	Distance='6.0'
+	Speed='0.45'
+	PositionBinding='playerWaist'
+	PositionOffset={x='0', y='1', z='0'} 
+	TransitionTime='2.0'
+	MinTime='5.0'
+	MaxTime='15.0' 
+}
+Camera={
+	Name='TrackShoulder'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='-0.3', y='0.9', z='0.5'} 
+	LookAt={x='0', y='0.5', z='10.0'} 
+	TransitionTime='2.0'
+	MinTime='15.0'
+	MaxTime='30.0' 
+}
+Camera={
+	Name='TrackProfile'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='-3.1', y='0.4', z='-0.5'} 
+	LookAt={x='50', y='1.0', z='9.0'} 
+	TransitionTime='2.0'
+	MinTime='15.0'
+	MaxTime='30.0' 
+}
+Camera={
+	Name='DroneOrbit'
+	Type='Orbital'
+	Distance='7.2'
+	Speed='0.15'
+	PositionBinding='playerWaist'
+	PositionOffset={x='0', y='4', z='0'} 
+	TransitionTime='2.0'
+	MinTime='5.0'
+	MaxTime='15.0' 
+}
+Camera={
+	Name='BlackParrotFrontLike'
+	Type='LookAt'
+	PositionBinding='playerWaist'
+	PositionOffset={x='0.1', y='0.4', z='1.85'} 
+	LookAt={x='-0.1', y='1.1', z='-20.0'} 
+	TransitionTime='2.0'
+	MinTime='15.0'
+	MaxTime='30.0' 
+}
