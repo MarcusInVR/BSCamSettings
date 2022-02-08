@@ -43,8 +43,8 @@ Camera={
 	PositionOffset={x='-3.1', y='0.4', z='-0.5'} 
 	LookAt={x='50', y='1.0', z='9.0'} 
 	TransitionTime='3.0'
-	MinTime='30.0'
-	MaxTime='45.0' 
+	MinTime='10.0'
+	MaxTime='20.0' 
 }
 Camera={
 	Name='DroneOrbit'
@@ -54,7 +54,7 @@ Camera={
 	PositionBinding='playerWaist'
 	PositionOffset={x='0', y='4', z='0'} 
 	TransitionTime='3.0'
-	MinTime='5.0'
+	MinTime='10.0'
 	MaxTime='15.0' 
 }
 Camera={
